@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Anish Raj</h1>
+        <p>Web Developer</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contect.html">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Welcome to my portfolio! I am a passionate web developer with a focus on creating interactive and user-friendly websites.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            Feel free to reach out to me through the following channels:
+        </p>
+        <ul>
+            <li>Email: anish@email.com</li>
+            <li>LinkedIn: linkedin.com/in/anish</li>
+            <li>GitHub: github.com/anish</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Website :</h3>
+            <p> Animations are moving images that a web designer uses to capture visitors’ attention and often direct them to take certain actions. They can be small animations that draw a user’s eye to a specific element, convey a marketing message, or help users move through a webpage more naturally.</p>
+        </div>
+        <div class="project">
+            <h3>Market Billing System:</h3>
+            <p>This is a simple Market Billing System mini project source code. It was written using JavaScript, HTML, and CSS. The application is a web-based application that provides an automated platform for managing the customer bills for buying some product items. This application uses only the browser's local storage and data are being managed using JS localStorage.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
